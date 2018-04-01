@@ -1,6 +1,10 @@
  # laravel-admin-oauth
  "laravel-admin-oauth" is an extension package for laravel-admin and login using oauth.
 
+## Screenshot
+------------
+![img](https://raw.githubusercontent.com/exceedone/laravel-admin-oauth/master/doc/img/screenshot1.png)
+
 ## Requirements
 ------------
  - PHP >= 7.0.0
@@ -15,7 +19,7 @@ First, install laravel 5.5, and install laravel-admin 1.5, and make sure that th
 Second, finish laravel-admin command "php artisan admin:install". Please read this url.
 [laravel-admin](https://github.com/z-song/laravel-admin)
 
-After, install laravel-admin-oauth.
+After, install laravel-admin-oauth. *Now preparing composer.
 ```
 composer require exceedone/laravel-admin-oauth
 ```
