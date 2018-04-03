@@ -72,7 +72,7 @@
               {{ !is_null($v['background_color']) ? 'background-color:'.$v['background_color'].';' : ''}}
               {{ !is_null($v['font_color']) ? 'color:'.$v['font_color'].';' : '' }}
             }
-            .{{ $v['btn_name'] }}:hover{
+            .{{ $v['btn_name'] }}:hover, .{{ $v['btn_name'] }}:focus,.{{ $v['btn_name'] }}:active{
               {{ !is_null($v['background_color_hover']) ? 'background-color:'.$v['background_color_hover'].';' : ''}}              
               @if(!is_null($v['font_color']) || !is_null($v['font_color_hover']))
               color: {{ !is_null($v['font_color_hover']) ? $v['font_color_hover'] : $v['font_color'] }};              
